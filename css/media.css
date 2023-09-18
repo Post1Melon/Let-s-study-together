@@ -1,0 +1,95 @@
+@media (max-width: 900px){
+    .none{
+        display: none;
+    }
+    .controls{
+        display: none;
+    }
+}
+@media (min-width: 900px){
+    .not_none{
+        display: none;
+    }
+}
+@media (max-width: 400px) {
+    .subheading{
+        font-size: 14px;
+    }
+    .sub_box{
+        width: 300px;
+    }
+    .slider_logo{
+        left: 3%;
+    }
+    .slide_button{
+        top: 47%;
+        right: 49%;
+    }
+    .indicators{
+        top: 86%;
+        left: 14%;
+    }
+    .heading{
+        font-size: 35px;
+    }
+    .subtext{
+        font-size: 15px;
+    }
+    .none{
+        display: none;
+    }
+    .photo_fon{
+        width: 55px;
+        height: 55px;
+    }
+    .block-info{
+        padding: 0 15px 0 9px;
+    }
+    #border{
+        border-right: none;
+        border-bottom: 1px solid grey;
+        margin: 15px 0 15px 0;  
+    }
+    .footer_div{
+        display: grid;
+        padding: 30px 0 30px 0;
+        width: 100%;
+        justify-items: center;
+    }
+    .feedback_left{
+        width: 95%;
+        float: none;
+    }
+    .feedback_right{
+        width: 100%;
+        float: none;
+        display: contents;
+    }
+    .feedback_box{
+        margin: 5px;
+        width: 96%;
+    }
+    .feedback_box_button{
+        margin: 5px;
+        width: 96%;
+    }
+    .feedback_info{
+        font-size: 38px;
+    }
+    #feedback_text{
+        font-size: 17px;
+        margin-bottom: 15px;
+    }
+    .fin_logo{
+        width: 100%;
+    }
+    .fin_logo_photo{
+    position: relative;
+    left: 50%;
+    right: 50%;
+    width: 196px;
+    height: 30px;
+    top: 8px;
+    transform: translate(-47%, -2%);
+    }
+}
